@@ -28,5 +28,5 @@ jobs:
       # Build docker images for Android
       - name: Android images
         run: | 
-          cd android/,
+          cd ./android/
           ./build-docker-images.sh
